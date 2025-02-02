@@ -12,7 +12,6 @@ public class StudentManagementApplication {
 		SpringApplication.run(StudentManagementApplication.class, args);
 	}
 
-	// Bean for RestTemplate to enable REST API calls between applications
 	@Bean
 	public RestTemplate restTemplate() {
 		return new RestTemplate();
